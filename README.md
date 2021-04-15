@@ -3,7 +3,9 @@ GameMaker Studio 2 plugin for device vibration!
 
 # how to use
 
-Download the chosen .yymps file. Click and drag it into your GameMaker Studio 2 project. 
+Download the chosen .yymps file. Click and drag it into your GameMaker Studio 2 project.
+
+You can optionally download the test project and see how functions are used.
 
 # notes
 
