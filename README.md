@@ -1,4 +1,5 @@
-# vibration
+# good vibes
+
 This is a GameMaker Studio 2 plugin for device vibration! This plugin allows for simple or complex timed vibrations.
 
 Normally, GameMaker will just vibrate a gamepad until you manually turn it off; this plugin handles that for you. You can set the duration of the vibration in frames independently for left and right motors.
