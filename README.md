@@ -8,7 +8,7 @@ This plugin also can make use of animation curves to allow for complex vibration
 
 # how to use
 
-Download the chosen .yymps file. Click and drag it into your GameMaker Studio 2 project. Be sure to Import All!
+Download the .yymps file from [releases](https://github.com/mrdaneeyul/good-vibes/releases). Click and drag it into your GameMaker Studio 2 project. Be sure to Import All!
 
 To do a simple vibration, simply call `Vibrate()` once (not every frame), passing in the vibration strength (0 to 1), duration (in frames), and optionally the device you want to vibrate (default is 0, the first device plugged in). For example, `Vibrate(0.75, 200);` will vibrate the first device at 3/4 strength for 200 frames, and `Vibrate(1, 10, 2);` will vibrate the third device (index 2) at full strength for 10 frames.
 
