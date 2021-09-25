@@ -1,11 +1,11 @@
 
 //fade in
 if (keyboard_check_pressed(vk_up) || gamepad_button_check_pressed(0, gp_padu))
-	VibrateExtended(1, 1, 200, 200, 0, crv_vibrate_linear_0_to_1);
+	VibrateExtended(1, 1, 200, 200, 0, crv_vibrate_linear_fade_in);
 
 //fade out
 if (keyboard_check_pressed(vk_down) || gamepad_button_check_pressed(0, gp_padd))
-	VibrateExtended(1, 1, 200, 200, 0, crv_vibrate_linear_1_to_0);
+	VibrateExtended(1, 1, 200, 200, 0, crv_vibrate_linear_fade_out);
 
 //pan left
 if (keyboard_check_pressed(vk_left) || gamepad_button_check_pressed(0, gp_padl))
